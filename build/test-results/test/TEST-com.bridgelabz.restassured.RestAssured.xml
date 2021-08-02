@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bridgelabz.restassured.RestAssured" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-02T06:14:52" hostname="DESKTOP-389CR00" time="2.238">
+  <properties/>
+  <testcase name="get_CurrentUsersPlaylistCoverImage" classname="com.bridgelabz.restassured.RestAssured" time="2.238"/>
+  <system-out><![CDATA[[ {
+  "height" : null,
+  "url" : "https://i.scdn.co/image/ab67706c0000bebb8d0ce13d55f634e290f744ba",
+  "width" : null
+} ]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
