@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.restassured.RestAssured" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-02T06:14:52" hostname="DESKTOP-389CR00" time="2.238">
+<testsuite name="com.bridgelabz.restassured.RestAssured" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-03T10:23:41" hostname="DESKTOP-389CR00" time="2.037">
   <properties/>
-  <testcase name="get_CurrentUsersPlaylistCoverImage" classname="com.bridgelabz.restassured.RestAssured" time="2.238"/>
+  <testcase name="get_CurrentUsersPlaylistCoverImage" classname="com.bridgelabz.restassured.RestAssured" time="2.037"/>
   <system-out><![CDATA[[ {
-  "height" : null,
-  "url" : "https://i.scdn.co/image/ab67706c0000bebb8d0ce13d55f634e290f744ba",
-  "width" : null
+  "height" : 640,
+  "url" : "https://i.scdn.co/image/ab67616d0000b273acc995be2b5bdc62d622ccd3",
+  "width" : 640
 } ]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>

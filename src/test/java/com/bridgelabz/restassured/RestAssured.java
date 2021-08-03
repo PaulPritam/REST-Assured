@@ -4,20 +4,19 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
 import static io.restassured.RestAssured.given;
 
 public class RestAssured {
 
     public String token = "";
-    public static String userID = "31pozmf6ue5xmftlzemv3k5y27la";
-    public static String playlistId = "3cEYpjA9oz9GiPac4AsH4n";
+    public static String userID = "";
+    public static String playlistId = "";
 
     @BeforeTest
     public void setUp() {
-        token = "Bearer BQAay-vFF5J6qyHVNZwcts0IGEcW1RJio1ox_GCcO4QwmjtsXVyr5mgtkJvAbOLFM5Cd_XiYZBOTQSA-lSRyofI1vr6VfMTo" +
-                "8cTFSBaIWXYqh0zcpAP2yzbBHsHxtRMavKfT3GQUFgWbZD26_G9fUXcS7UJkkSlwMJWtZ-tE4rmZyUoWo1g0noJaR3mFCH-wbv-q5wQ" +
-                "4_n65ZAJAeSrsDxTdhH39BzIW3LDggYNj1tKuME8RVIz2wt76S7lVianJ9On72hBQkk_TaAMQR1btfA46zu_jZGseGp5l-LyewETt";
+        token = "Bearer BQCvpslyrXABonzzfDxjRlbEWb3EtygdB7_GKkmFRWXS9q0vn3jttA8ngAWcOSPe9Qh1hdtX9F0Eo-4Mgx6LLWG0tQBrKEvx" +
+                "z8m5rIN4YrbPmoxyhsrGPuTRfhIO3mLcbmwr8qauxTPjLQnxbcRDncaVmZhEAh-jptLqmkOGSTssLI46G5eJAkafpKMm6HpoFPzaSoX" +
+                "NlUlx-PEb1iUG-KiCWCNdiiqmN4dC_dH4qjMLD9J_X3P_4O0S0Ck11_kbd4R9mviIf0TOAjaFcmlxoqyM3SCWy6HVRvdMFblIcZW6";
     }
 
     /*
@@ -28,7 +27,7 @@ public class RestAssured {
         Response response = given().contentType(ContentType.JSON)
                 .accept(ContentType.JSON).header("Authorization", token)
                 .when()
-                .get("https://api.spotify.com/v1/users/" + userID + "/");
+                .get("https://api.spotify.com/v1/me");
         response.prettyPrint();
     }
 
@@ -40,7 +39,7 @@ public class RestAssured {
         Response response = given().contentType(ContentType.JSON)
                 .accept(ContentType.JSON).header("Authorization", token)
                 .when()
-                .get("https://api.spotify.com/v1/users/" + userID + "/playlists");
+                .get("https://api.spotify.com/v1/me/playlists");
         response.prettyPrint();
     }
 
@@ -52,7 +51,7 @@ public class RestAssured {
         Response response = given().contentType(ContentType.JSON)
                 .accept(ContentType.JSON).header("Authorization", token)
                 .when()
-                .get("https://api.spotify.com/v1/playlists/" + playlistId + "/images");
+                .get("https://api.spotify.com/v1/playlists/6kARld7la7IvgtyUOt1eQX/images");
         response.prettyPrint();
     }
 }
