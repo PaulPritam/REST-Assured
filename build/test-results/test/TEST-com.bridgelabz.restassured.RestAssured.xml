@@ -1,12 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.restassured.RestAssured" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-03T10:23:41" hostname="DESKTOP-389CR00" time="2.037">
+<testsuite name="com.bridgelabz.restassured.RestAssured" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-04T10:42:54" hostname="DESKTOP-389CR00" time="3.215">
   <properties/>
-  <testcase name="get_CurrentUsersPlaylistCoverImage" classname="com.bridgelabz.restassured.RestAssured" time="2.037"/>
-  <system-out><![CDATA[[ {
-  "height" : 640,
-  "url" : "https://i.scdn.co/image/ab67616d0000b273acc995be2b5bdc62d622ccd3",
-  "width" : 640
-} ]
+  <testcase name="get_Current_UserProfile" classname="com.bridgelabz.restassured.RestAssured" time="3.215"/>
+  <system-out><![CDATA[{
+    "country": "IN",
+    "display_name": "31pozmf6ue5xmftlzemv3k5y27la",
+    "email": "pritampaul9797@gmail.com",
+    "explicit_content": {
+        "filter_enabled": false,
+        "filter_locked": false
+    },
+    "external_urls": {
+        "spotify": "https://open.spotify.com/user/31pozmf6ue5xmftlzemv3k5y27la"
+    },
+    "followers": {
+        "href": null,
+        "total": 0
+    },
+    "href": "https://api.spotify.com/v1/users/31pozmf6ue5xmftlzemv3k5y27la",
+    "id": "31pozmf6ue5xmftlzemv3k5y27la",
+    "images": [
+        
+    ],
+    "product": "open",
+    "type": "user",
+    "uri": "spotify:user:31pozmf6ue5xmftlzemv3k5y27la"
+}
+Data from response-->31pozmf6ue5xmftlzemv3k5y27la
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

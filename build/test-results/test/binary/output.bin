@@ -1,5 +1,25 @@
-[ {
-  "height" : 640,
-N  "url" : "https://i.scdn.co/image/ab67616d0000b273acc995be2b5bdc62d622ccd3",
-  "width" : 640
-} ]
+{
+    "country": "IN",
+4    "display_name": "31pozmf6ue5xmftlzemv3k5y27la",
+)    "email": "pritampaul9797@gmail.com",
+    "explicit_content": {
+!        "filter_enabled": false,
+        "filter_locked": false
+    },
+    "external_urls": {
+P        "spotify": "https://open.spotify.com/user/31pozmf6ue5xmftlzemv3k5y27la"
+    },
+    "followers": {
+        "href": null,
+        "total": 0
+    },
+M    "href": "https://api.spotify.com/v1/users/31pozmf6ue5xmftlzemv3k5y27la",
+*    "id": "31pozmf6ue5xmftlzemv3k5y27la",
+    "images": [
+	        
+    ],
+    "product": "open",
+    "type": "user",
+7    "uri": "spotify:user:31pozmf6ue5xmftlzemv3k5y27la"
+}
+3Data from response-->31pozmf6ue5xmftlzemv3k5y27la
